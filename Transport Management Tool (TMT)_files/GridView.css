@@ -1,0 +1,111 @@
+.GridView {
+	BORDER-TOP: #666666 1px solid; FONT-FAMILY: "Museo For Dell 300" , "Trebuchet MS"; BORDER-RIGHT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #666666 1px solid; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+.PagerStyle {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; BORDER-TOP: #333333 1px solid; HEIGHT: 27px; FONT-FAMILY: "Museo For Dell 300" , "Trebuchet MS"; BORDER-RIGHT-WIDTH: 0px; BACKGROUND-IMAGE: url(../images/Grid/headerAlt.gif); BACKGROUND-REPEAT: repeat-x; BORDER-BOTTOM: #333333 1px solid; FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-BOTTOM: 2px; TEXT-ALIGN: center; PADDING-TOP: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND-COLOR: #9497a8
+}
+.HeaderStyle TH {
+	FONT-SIZE: 14px; BORDER-TOP: #808080 1px ridge; HEIGHT: 28px; FONT-FAMILY: "Museo For Dell 300" , "Trebuchet MS"; BACKGROUND-IMAGE: url(../images/Grid/header1.gif); BACKGROUND-REPEAT: repeat-x; BORDER-BOTTOM: #808080 1px ridge; FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-BOTTOM: 4px; TEXT-ALIGN: left; PADDING-TOP: 4px; PADDING-LEFT: 4px; MARGIN: 0px; PADDING-RIGHT: 4px; BACKGROUND-COLOR: #babcc9
+}
+.HeaderStyleAlt TH {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; BORDER-TOP: #808080 1px ridge; HEIGHT: 25px; FONT-FAMILY: "Museo For Dell 300" , "Trebuchet MS"; BORDER-RIGHT-WIDTH: 0px; BACKGROUND-IMAGE: url(../images/Grid/headerAlt.gif); BACKGROUND-REPEAT: repeat; BORDER-BOTTOM: #808080 1px ridge; FONT-WEIGHT: bold; COLOR: #ffffff; TEXT-ALIGN: left; BACKGROUND-COLOR: #9497a8
+}
+.PagerStyle TABLE {
+	TEXT-ALIGN: center
+}
+.PagerStyle TABLE TD {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BORDER-TOP-WIDTH: 0px
+}
+.PagerStyle A {
+	CURSOR: pointer; TEXT-DECORATION: none; BORDER-TOP: #99a3b5 1px solid; BORDER-RIGHT: #99a3b5 1px solid; BACKGROUND-IMAGE: url(../images/Grid/page_number_normal.gif); BORDER-BOTTOM: #99a3b5 1px solid; FLOAT: left; COLOR: #353b4d; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; FONT: 11px "Trebuchet MS"; PADDING-LEFT: 3px; MARGIN-LEFT: 2px; BORDER-LEFT: #99a3b5 1px solid; PADDING-RIGHT: 3px; MARGIN-RIGHT: 2px
+}
+.PagerStyle A:hover {
+	CURSOR: pointer; TEXT-DECORATION: none; BORDER-TOP: #99a3b5 1px solid; BORDER-RIGHT: #99a3b5 1px solid; BACKGROUND-IMAGE: url(../images/Grid/page_number_over.gif); BORDER-BOTTOM: #99a3b5 1px solid; FLOAT: left; COLOR: #353b4d; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; FONT: 11px "Trebuchet MS"; PADDING-LEFT: 3px; MARGIN-LEFT: 2px; BORDER-LEFT: #99a3b5 1px solid; PADDING-RIGHT: 3px; MARGIN-RIGHT: 2px
+}
+.PagerStyle SPAN {
+	TEXT-DECORATION: none; FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.RowStyle TD {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-TOP: #c3c9ce 1px solid; HEIGHT: 25px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT-WIDTH: 0px; WIDTH: auto; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #c3c9ce 1px solid; POSITION: static; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-RIGHT: 3px
+}
+.AltRowStyle TD {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-TOP: #c3c9ce 1px solid; HEIGHT: 25px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT-WIDTH: 0px; WIDTH: auto; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #c3c9ce 1px solid; POSITION: static; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-RIGHT: 3px
+}
+.SelectedRowStyle TD {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-TOP: #c3c9ce 1px solid; HEIGHT: 25px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT-WIDTH: 0px; WIDTH: auto; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #c3c9ce 1px solid; POSITION: static; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-RIGHT: 3px
+}
+.EditRowStyle TD {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-TOP: #c3c9ce 1px solid; HEIGHT: 25px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT-WIDTH: 0px; WIDTH: auto; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #c3c9ce 1px solid; POSITION: static; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-RIGHT: 3px
+}
+.RowStyle TD {
+	BACKGROUND-IMAGE: url(../images/Grid/row1.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% bottom; COLOR: #5f627b; BACKGROUND-COLOR: #ececf0
+}
+.AltRowStyle TD {
+	BACKGROUND-IMAGE: url(../images/Grid/row2.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% bottom; COLOR: #5f627b; BACKGROUND-COLOR: #ffffff
+}
+.SelectedRowStyle TD {
+	BACKGROUND-IMAGE: url(../images/Grid/row_selected.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% bottom; COLOR: #515a6e; BACKGROUND-COLOR: #d6dae1
+}
+.FooterStyle TD {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; HEIGHT: 28px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: middle; BACKGROUND-IMAGE: url(../images/Grid/footer.gif); BORDER-BOTTOM-WIDTH: 0px; COLOR: #2b2b3d; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 2px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP-WIDTH: 0px
+}
+.RowStyle TD A {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #3333cc
+}
+.AltRowStyle TD A {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #3333cc
+}
+.SelectedRowStyle TD A {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #3333cc
+}
+.EditRowStyle TD A {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #3333cc
+}
+.RowStyle TD A:hover {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #0c416f
+}
+.AltRowStyle TD A:hover {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #0c416f
+}
+.SelectedRowStyle TD A:hover {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #0c416f
+}
+.EditRowStyle TD A:hover {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #0c416f
+}
+.RowStyleStarted TD {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-TOP: #c3c9ce 1px solid; HEIGHT: 25px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT-WIDTH: 0px; WIDTH: auto; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #c3c9ce 1px solid; POSITION: static; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-RIGHT: 3px
+}
+.RowStyleCompleted TD {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-TOP: #c3c9ce 1px solid; HEIGHT: 25px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT-WIDTH: 0px; WIDTH: auto; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #c3c9ce 1px solid; POSITION: static; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-RIGHT: 3px
+}
+.RowStyleNotStarted TD {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-TOP: #c3c9ce 1px solid; HEIGHT: 25px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT-WIDTH: 0px; WIDTH: auto; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #c3c9ce 1px solid; POSITION: static; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-RIGHT: 3px
+}
+.RowStyleNoShow TD {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-TOP: #c3c9ce 1px solid; HEIGHT: 25px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT-WIDTH: 0px; WIDTH: auto; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #c3c9ce 1px solid; POSITION: static; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-RIGHT: 3px
+}
+.RowStyleBorded TD {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-TOP: #c3c9ce 1px solid; HEIGHT: 25px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT-WIDTH: 0px; WIDTH: auto; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #c3c9ce 1px solid; POSITION: static; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-RIGHT: 3px
+}
+.RowStyleDelay TD {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-TOP: #c3c9ce 1px solid; HEIGHT: 25px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT-WIDTH: 0px; WIDTH: auto; VERTICAL-ALIGN: middle; BORDER-BOTTOM: #c3c9ce 1px solid; POSITION: static; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-RIGHT: 3px
+}
+.RowStyleStarted TD {
+	COLOR: #5f627b; BACKGROUND-COLOR: #ffcc66
+}
+.RowStyleCompleted TD {
+	COLOR: #5f627b; BACKGROUND-COLOR: #94e494
+}
+.RowStyleNotStarted TD {
+	COLOR: #5f627b; BACKGROUND-COLOR: #f9cbb6
+}
+.RowStyleNoShow TD {
+	COLOR: #5f627b; BACKGROUND-COLOR: #aed7ff
+}
+.RowStyleBorded TD {
+	COLOR: #5f627b; BACKGROUND-COLOR: #e2c6ff
+}
+.RowStyleDelay TD {
+	COLOR: #5f627b; BACKGROUND-COLOR: #f9cbb6
+}

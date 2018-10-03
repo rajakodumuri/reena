@@ -1,0 +1,7 @@
+1TB SSD
+Prefer to choose vCPU and Memory configuration
+
+OS Version - Ubuntu 18.04 LTS
+
+Enable APIs
+SSH Connection

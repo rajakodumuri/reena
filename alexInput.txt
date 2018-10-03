@@ -1,0 +1,34 @@
+
+performance:
+	slow computer
+	computer freezing
+	page not responding
+	stuck on a window
+noise:
+	weird noise
+	sounds like it is running fast
+display:
+	fuzzy
+	blanked out
+	hazy
+	resolution
+	spots
+sound:
+	can't hear anything
+	video plays but there's no sound
+	muted
+display orientation:
+	upside down
+
+Issues:
+	wireless
+	virus
+	scam calls
+	windows updates
+
+Small Talk:
+	How has your day been so far?
+	What are your plans for the weekend?
+	Holiday Schedules
+	Inquiring about the user's experience on leaves/holidays
+	General Computer usage

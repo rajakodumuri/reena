@@ -1,0 +1,54 @@
+.DetailsView {
+	BORDER-TOP: #808080 1px solid; BORDER-RIGHT: #808080 1px solid; BORDER-BOTTOM: #808080 1px solid; BORDER-LEFT: #808080 1px solid
+}
+.DetailsViewHeaderStyle TD {
+	FONT-SIZE: 14px; CURSOR: pointer; HEIGHT: 26px; FONT-FAMILY: "Museo For Dell 300" , "Trebuchet MS"; BACKGROUND-IMAGE: url(../images/Grid/header.gif); BACKGROUND-REPEAT: repeat-x; FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #9497a8
+}
+.DetailsViewRowStyle TD {
+	FONT-SIZE: 12px; HEIGHT: 26px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT: #c3c9ce 1px solid; WIDTH: auto; VERTICAL-ALIGN: middle; BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #c3c9ce 1px solid; PADDING-RIGHT: 5px; BORDER-TOP-WIDTH: 0px; MARGIN-RIGHT: 3px
+}
+.DetailsViewAltRowStyle TD {
+	FONT-SIZE: 12px; HEIGHT: 26px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT: #c3c9ce 1px solid; WIDTH: auto; VERTICAL-ALIGN: middle; BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #c3c9ce 1px solid; PADDING-RIGHT: 5px; BORDER-TOP-WIDTH: 0px; MARGIN-RIGHT: 3px
+}
+.DetailsViewSelectedRowStyle TD {
+	FONT-SIZE: 12px; HEIGHT: 26px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT: #c3c9ce 1px solid; WIDTH: auto; VERTICAL-ALIGN: middle; BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #c3c9ce 1px solid; PADDING-RIGHT: 5px; BORDER-TOP-WIDTH: 0px; MARGIN-RIGHT: 3px
+}
+.DetailsViewEditRowStyle TD {
+	FONT-SIZE: 12px; HEIGHT: 26px; FONT-FAMILY: "Trebuchet MS" , Arial; BORDER-RIGHT: #c3c9ce 1px solid; WIDTH: auto; VERTICAL-ALIGN: middle; BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #c3c9ce 1px solid; PADDING-RIGHT: 5px; BORDER-TOP-WIDTH: 0px; MARGIN-RIGHT: 3px
+}
+.DetailsViewRowStyle TD {
+	BACKGROUND-IMAGE: url(../images/Grid/row1.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% bottom; COLOR: #5f627b; BACKGROUND-COLOR: #ececf0
+}
+.DetailsViewAltRowStyle TD {
+	BACKGROUND-IMAGE: url(../images/Grid/row2.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% bottom; COLOR: #5f627b; BACKGROUND-COLOR: #ffffff
+}
+.DetailsViewSelectedRowStyle TD {
+	BACKGROUND-IMAGE: url(../images/Grid/row_selected.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% bottom; COLOR: #515a6e; BACKGROUND-COLOR: #d6dae1
+}
+.DetailsViewFooterStyle TD {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10px; CURSOR: default; HEIGHT: 27px; FONT-FAMILY: Verdana; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: middle; BACKGROUND-IMAGE: url(../images/Grid/footer.gif); WHITE-SPACE: nowrap; BORDER-BOTTOM-WIDTH: 0px; MARGIN-TOP: 0px; POSITION: relative; COLOR: #2b2b3d; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 20px; Z-INDEX: 0; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px
+}
+.DetailsViewRowStyle TD A {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #3333cc; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.DetailsViewAltRowStyle TD A {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #3333cc; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.DetailsViewSelectedRowStyle TD A {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #3333cc; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.DetailsViewEditRowStyle TD A {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #3333cc; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.DetailsViewRowStyle TD A:hover {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #0c416f
+}
+.DetailsViewAltRowStyle TD A:hover {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #0c416f
+}
+.DetailsViewSelectedRowStyle TD A:hover {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #0c416f
+}
+.DetailsViewEditRowStyle TD A:hover {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline; FONT-FAMILY: "Trebuchet MS" , Arial; FONT-WEIGHT: normal; COLOR: #0c416f
+}

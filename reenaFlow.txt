@@ -1,0 +1,20 @@
+Introduction
+
+First
+	- Resolve issues touchscreen
+	- Customer's can trigger SA tiles
+	- Triggering SupportAssist to run scans
+			- Performing, Freezing, Stuck, Performance, Slow
+			- Loud, Noise
+			- Display, Spots
+			- Sounds, Muted
+	- Weather
+
+Secondary
+	- RE can access GR in an interactive way with voice assistance
+	- Enablement
+		- Call Recording
+		- Drop
+		- Attendance
+		- Dinner/Breakfast Menu
+		- Weather

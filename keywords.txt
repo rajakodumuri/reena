@@ -1,0 +1,44 @@
+Hello
+Who
+Morning, Afternoon, Night
+Breakfast, Dinner
+Dance
+Doing
+Name
+Google
+Call - Accountability, Empathy, Expectation, Good
+Scores
+Drop
+Attendance
+Weather (Limited to Bangalore as of now)
+Triggering SupportAssist to run scans
+	- Performing, Freezing, Stuck, Performance, Slow
+	- Loud, Noise
+	- Display, Spots
+	- Sounds, Muted
+Troubleshooting guide for the agents
+	My laptop doesn't have power
+		Yes, it is a known issue, apparently
+		No, it is not a known issue
+			It just powered on after the hard reset
+				BIOS doesn't have AC Adapter listed
+					I see the power light on
+					There is no indication of power on the laptop
+				AC Adapter is listed in the BIOS
+				I notice some damage on the laptop
+				I don't see any damage on the laptop
+					The adapter is damaged
+						I have one, let me check to see if that works
+							It is working
+							That didn't work
+							I see nothing
+			It is not powering on
+				I notice some damage on the laptop
+				I don't see any damage on the laptop
+					The adapter is damaged
+						I have one, let me check to see if that works
+							It is working
+							That didn't work
+							I see nothing
+Touchscreen issue for the customer to troubleshoot themselves
+Exit
