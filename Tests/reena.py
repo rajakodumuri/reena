@@ -1,4 +1,5 @@
 import os
+import wx
 import time
 import random
 import threading

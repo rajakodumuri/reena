@@ -1,7 +1,7 @@
 import os
+import wx
 import time
 import random
-import threading
 import webbrowser
 import tkinter as tk
 from gtts import gTTS
@@ -12,19 +12,11 @@ from playsound import playsound
 import speech_recognition as sr
 from weather import Weather, Unit
 
-global mainQueue
-global mainThread
-mainQueue = Queue()
-root = tk.Tk()
-
-def startAssistant():
+def startAssistant(event):
     keepRunning = 1
     while keepRunning is 1:
-        startMainFunction = mainFunction()
-        startMainFunction
-        if startMainFunction is 0: break
-
-mainThread = threading
+        mainFunction()
+        if mainFunction() is 0: break
 
 def doNothing(): print("I don't do anything apart from printing this line of course!")
 
@@ -65,7 +57,6 @@ def mainFunction():
     with microphone as source:
         print ("Speak:")
         audio = recognizer.listen(source)
-        mainQueue.put(audio)
 
     # Converting audio into text
     convertedAudio = recognizer.recognize_google(audio)
@@ -118,34 +109,3 @@ def mainFunction():
         # Out of scope reply
         talkBack("I am a demo version. When you meet the completed me, you will be surprised.", "somethingElse")
         return 0
-
-def userInterface(thread, queue):
-    thread.start()
-
-    root.title("Voice Assistant")
-    mainFrame = tk.Frame(root, width = 1024, height = 720, bg = "turquoise", borderwidth = 5)
-
-    menu = tk.Menu(root)
-    root.config(menu=menu)
-    subMenu = tk.Menu(menu)
-
-    startButton = tk.Button(mainFrame, text="Interact", command = startAssistant)
-    startButton.place(relx = 0.5, rely = 1.0, anchor = tk.S)
-
-    menu.add_cascade(label="File", menu=subMenu)
-
-    subMenu.add_command(label="Do Nothing", command=doNothing)
-    subMenu.add_separator()
-    subMenu.add_command(label="Exit", command=root.quit)
-
-    mainFrame.pack()
-
-    while thread.is_alive():
-        root.update()
-        pass
-    
-    something = queue.get()
-    return something
-
-something = userInterface(mainThread, mainQueue)
-root.mainloop()
