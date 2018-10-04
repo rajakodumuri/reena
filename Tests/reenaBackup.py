@@ -24,7 +24,7 @@ def startAssistant():
         startMainFunction
         if startMainFunction is 0: break
 
-mainThread = threading.Thread(target = startAssistant, args = ())
+mainThread = threading
 
 def doNothing(): print("I don't do anything apart from printing this line of course!")
 
@@ -65,6 +65,7 @@ def mainFunction():
     with microphone as source:
         print ("Speak:")
         audio = recognizer.listen(source)
+        mainQueue.put(audio)
 
     # Converting audio into text
     convertedAudio = recognizer.recognize_google(audio)
