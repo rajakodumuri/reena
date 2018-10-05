@@ -1,35 +1,24 @@
-#!/usr/bin/python3
-
-# Functionality related imports
 import os
 import time
 import random
+import threading
 import webbrowser
+import tkinter as tk
 from gtts import gTTS
+from queue import Queue
 from mutagen.mp3 import MP3
 from PIL import ImageTk, Image
 from playsound import playsound
 import speech_recognition as sr
 from weather import Weather, Unit
 
-# GUI related imports
-from kivy.app import App
-from kivy.uix.button import Button
-from kivy.uix.boxlayout import BoxLayout
+queue = Queue()
 
-class ReenaInterface(BoxLayout):
-
-    def startAssistant(self):
-        self.keepRunning = 1
-        while self.keepRunning is 1:
-            mainFunction()
-            if mainFunction() is 0: break
-
-    def __init__(self, **kwargs):
-        super(ReenaInterface, self).__init__(**kwargs)
-        startButton = Button(text = 'Interact')
-        self.add_widget(startButton)
-        startButton.bind(on_press=self.startAssistant)
+def startAssistant():
+    keepRunning = 1
+    while keepRunning is 1:
+        mainFunction()
+        if mainFunction() is 0: break
 
 def doNothing(): print("I don't do anything apart from printing this line of course!")
 
@@ -123,10 +112,35 @@ def mainFunction():
         talkBack("I am a demo version. When you meet the completed me, you will be surprised.", "somethingElse")
         return 0
 
-class MainApp(App):
+def interfaceFunction():
+    root = tk.Tk()
 
-    def build(self):
-        return ReenaInterface().startAssistant()
+    # favicon = ImageTk.PhotoImage(Image.open('favicon.jpg'))
+    # root.tk.call('wm', 'iconphoto', root._w, favicon)
 
+    root.title("Dell - ReEna (Resolve, Enable) - Interactive Voice Assistant")
+    mainFrame = tk.Frame(root, width = 1024, height = 720, bg = "turquoise", borderwidth = 5)
 
-MainApp().run()
+    menu = tk.Menu(root)
+    root.config(menu=menu)
+    subMenu = tk.Menu(menu)
+
+    startButton = tk.Button(mainFrame, text="Interact", command = startAssistant)
+    startButton.place(relx = 0.5, rely = 1.0, anchor = tk.S)
+
+    menu.add_cascade(label="File", menu=subMenu)
+
+    subMenu.add_command(label="Do Nothing", command=doNothing)
+    subMenu.add_separator()
+    subMenu.add_command(label="Exit", command=root.quit)
+
+    mainFrame.pack()
+    interfaceQueue = root.mainloop()
+    queue.put(interfaceQueue)
+
+    return interfaceQueue
+
+interfaceThread = threading.Thread(target = interfaceFunction, args=())
+
+interfaceThread.start()
+interfaceFunction()

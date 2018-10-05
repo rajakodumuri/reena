@@ -385,22 +385,12 @@ def troubleshoot():
 		talkBack("I am sorry, I couldn't quite get what you said. Could you please say that again?", "UnknownValueError")
 
 	else:
-		talkBack("Sorry, I am a demo version and I am still learning, you will be thrilled to meet the real me")
+		talkBack("Sorry, I am a demo version and I am still learning, you will be thrilled to meet the real me", "everythingElseYouFailToDo")
 
 def startReena():
 	keepRunning = 1
 	while keepRunning is 1:
 		if mainFunction() is 0: break
-
-class startReenaThread(threading.Thread):
-	def __init__(self):
-		threading.Thread.__init__(self)
-	def run(self):
-		startReena()
-
-startReenaThread.daemon = True
-
-startReenaThread().start()
 
 root = tk.Tk()
 
@@ -414,7 +404,7 @@ menu = tk.Menu(root)
 root.config(menu=menu)
 subMenu = tk.Menu(menu)
 
-startButton = tk.Button(mainFrame, text="Interact", command = startReenaThread.run)
+startButton = tk.Button(mainFrame, text="Interact", command = startReena)
 startButton.place(relx = 0.5, rely = 1.0, anchor = tk.S)
 
 menu.add_cascade(label="File", menu=subMenu)
