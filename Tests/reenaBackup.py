@@ -1,22 +1,35 @@
+#!/usr/bin/python3
+
+# Functionality related imports
 import os
-import wx
 import time
 import random
 import webbrowser
-import tkinter as tk
 from gtts import gTTS
-from queue import Queue
 from mutagen.mp3 import MP3
 from PIL import ImageTk, Image
 from playsound import playsound
 import speech_recognition as sr
 from weather import Weather, Unit
 
-def startAssistant(event):
-    keepRunning = 1
-    while keepRunning is 1:
-        mainFunction()
-        if mainFunction() is 0: break
+# GUI related imports
+from kivy.app import App
+from kivy.uix.button import Button
+from kivy.uix.boxlayout import BoxLayout
+
+class ReenaInterface(BoxLayout):
+
+    def startAssistant(self):
+        self.keepRunning = 1
+        while self.keepRunning is 1:
+            mainFunction()
+            if mainFunction() is 0: break
+
+    def __init__(self, **kwargs):
+        super(ReenaInterface, self).__init__(**kwargs)
+        startButton = Button(text = 'Interact')
+        self.add_widget(startButton)
+        startButton.bind(on_press=self.startAssistant)
 
 def doNothing(): print("I don't do anything apart from printing this line of course!")
 
@@ -109,3 +122,11 @@ def mainFunction():
         # Out of scope reply
         talkBack("I am a demo version. When you meet the completed me, you will be surprised.", "somethingElse")
         return 0
+
+class MainApp(App):
+
+    def build(self):
+        return ReenaInterface().startAssistant()
+
+
+MainApp().run()
