@@ -13,4 +13,4 @@ echo.
 
 pushd "C:\Users\test\Desktop\reena"
 
-python reena.py
+python automatedReena.py

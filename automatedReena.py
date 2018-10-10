@@ -66,7 +66,7 @@ def mainFunction():
 	elif "who" in convertedAudioSplit:
 		talkBack("I am an Interactive Voice Assistant made by Dell.", "who")
 
-	# Wishing people based on the time of the day	
+	# Wishing people based on the time of the day
 	elif "morning" in convertedAudioSplit:
 		talkBack("Good morning! The sun's shining bright, let's head out for a run. We'll get back and make a healthy breakfast for ourselves", "morning")
 	elif "afternoon" in convertedAudioSplit:
@@ -97,7 +97,7 @@ def mainFunction():
 	elif "call" in convertedAudioSplit:
 		# Randomizing the audio file that is being picked up
 		randomNumber = random.choice([1, 2, 3, 4, 5, 6, 7, 8, 9])
-		
+
 		if "accountability" in convertedAudioSplit:
 			talkBack("Sure, bringing up a random recording of a call with accountability.", "accountability")
 			# Playing the call recording
@@ -242,16 +242,14 @@ def mainFunction():
 		talkBack("Is there any physical damage on the display?", "physicalDamageOnDisplay")
 		while keepRunning is 2:
 			troubleshoot()
-			if troubleshoot is 0:
-				break
+			if troubleshoot is 0: break
 	elif "touchscreen" in convertedAudioSplit:
 		keepRunning = 2
 		talkBack("I understand that this is an inconvenience, let me help you.", "troubleshootTrigger")
 		talkBack("Is there any physical damage on the display?", "physicalDamageOnDisplay")
 		while keepRunning is 2:
 			troubleshoot()
-			if troubleshoot is 0:
-				break
+			if troubleshoot is 0: break
 
 	# Exiting the program on user's consent
 	elif "exit" in convertedAudioSplit:
@@ -382,13 +380,12 @@ def troubleshoot():
 		talkBack("I am sorry, I couldn't quite get what you said. Could you please say that again?", "UnknownValueError")
 
 	else:
-		talkBack("Sorry, I am a demo version and I am still learning, you will be thrilled to meet the real me")
+		talkBack("Sorry, I am a demo version and I am still learning, you will be thrilled to meet the real me", "somethingElse")
 
 # Main loop that keeps the program running
 def startReena():
 	while keepRunning is 1:
 		mainFunction()
-		if mainFunction() is 0:
-			break
+		if mainFunction() is 0: break
 
 startReena()
